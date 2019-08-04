@@ -1,0 +1,465 @@
+
+/*на ноутбуке на мобильной версии появляется белая полоска справа
+на компьютере ее нет, подскажите в чем проблема)*/
+html, body
+{
+	font-family: 'Dosis', sans-serif;
+}
+
+		/*header*/
+		header
+		{	
+			padding-top: 20px;
+			background:-webkit-radial-gradient(center bottom, circle, white -29%, black 60%);
+			color: white;
+			box-sizing: border-box;
+		}
+		.first-word
+		{
+			color: #00C7FF;
+		}
+		h1
+		{
+			margin-bottom: -7px;
+		}
+		.under-title
+		{
+			color: #808080;
+		}
+		
+		.nav
+		{
+			position: relative;
+
+		}
+
+		.nav .comp .fa-circle
+		{
+			color: #00C7FF;
+			font-size: 10px;
+			margin-right: 10px;
+			position: relative;
+			top: 1px;
+		}
+		.nav .comp
+		{
+			display: flex;
+			justify-content: space-between;
+			margin:0 auto;
+			width: 100%;
+			list-style:none;
+		}
+		.nav .comp li
+		{
+			color: white;	
+		}	
+		.nav .comp li a
+		{
+			color: white;
+			position: relative;
+			top: 3px;
+			text-decoration: none;
+		}		
+		.nav .comp li a:hover
+		{
+			color: #00C7FF;
+		}
+			
+
+		.nav .mob .fa-circle
+		{
+			color: #00C7FF;
+			font-size: 10px;
+			margin-right: 10px;
+			position: relative;
+			top: 1px;
+		}
+		.nav .mob
+		{
+			display: none;
+   			position: absolute;
+   			top: 56px;
+   			right: -23px;
+   			padding: 5px;
+   			z-index: 10;
+			display: none;
+			width: 22%;
+			list-style:none;
+			background-color: rgba(0, 0, 0, 0.8);
+		}
+		.nav .mob li
+		{
+				 
+			margin: 10px 0px;
+		}	
+		.nav .mob li a
+		{
+			color: white;
+			position: relative;
+			top: 3px;
+			text-decoration: none;
+		}		
+		.nav .mob li a:hover
+		{
+			color: #00C7FF;
+		}
+		.menu__icon 
+		{
+			margin-top: 16px;
+			display: none;
+    		width: 45px;
+   			 height: 35px;
+   		 	position: relative;
+   			 cursor: pointer;
+		}		
+		.menu__icon span 
+		{
+    		display: block;
+   			position: absolute;
+    		height: 9px;
+   			width: 100%;
+    		background: #00C7FF;
+    		border-radius: 9px;
+    		opacity: 1;
+  		    left: 0;
+   		    transform: rotate(0deg);
+   		 	transition: .25s ease-in-out;
+		} 
+		.menu__icon span:nth-child(1) 
+		{
+  		 	top: 0px;
+		}		
+		.menu__icon span:nth-child(2), .menu__icon span:nth-child(3)
+		{
+   			top: 13px;
+		}
+		.menu__icon span:nth-child(4) 
+		{
+   			top: 26px;
+		}
+		.nav.menu_state_open .menu__icon span:nth-child(1) 
+		{
+   			top: 18px;
+   			width: 0%;
+   			left: 50%;
+		}
+		.nav.menu_state_open .menu__icon span:nth-child(2) 
+		{
+    		transform: rotate(45deg);
+		}
+		.nav.menu_state_open .menu__icon span:nth-child(3) 
+		{
+   			transform: rotate(-45deg);
+		}
+		.nav.menu_state_open .menu__icon span:nth-child(4) 
+		{
+   			top: 18px;
+  			width: 0%;
+   			left: 50%;
+		}
+		.nav.menu_state_open .mob 
+		{
+ 		   display: block;  
+		}
+
+		.car
+		{
+			margin-top: 50px;
+			position: relative;
+			top: 20px;
+		}
+ 		#carousel 
+ 		{
+   		 	width:100%;
+  		 	height: 300px;
+  		}
+  		#carousel img 
+  		{
+   		 	cursor: pointer; 
+   			border:10px solid white;
+   			opacity: 1 !important;
+    		box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  		}
+		/*header*/
+
+
+/*main*/
+main
+{
+	padding:130px 0px 50px 0px;
+	background:-webkit-radial-gradient( circle, white 1%, #EBEBEB 43%);
+}
+main .row>div 
+{
+	padding: 0px 30px 30px 30px;
+	box-sizing: border-box;
+}
+main h2
+{
+	color: rgba(51,51,51,.8);
+}
+.bor p a
+{
+	color: #00C7FF;
+	text-decoration: underline;
+}
+.bor img
+{
+	margin: 20px 0px 30px 0px;
+	border:10px solid white;
+	width: 100%;
+}
+.read-more
+{
+	padding: 5px 10px;
+	background: #00C7FF;
+	color: white;
+	border:1px solid #00C7FF;
+	transition: .5s;
+}
+.read-more:hover
+{
+	color: #00C7FF;
+	background: white;
+	text-decoration: none;
+}
+.bor-2
+{
+	display: table;
+	border-right: 2px solid white;
+	border-left: 2px solid white;
+}
+.bor ul li:last-child
+{
+	margin-bottom: -14px;
+}
+.bor ul 
+{
+	margin-top: 20px;
+}
+.bor ul li
+{
+list-style:none;
+margin-bottom: 8px;	
+}	
+.bor ul li h2
+{
+	font-size: 20px;
+	font-weight: bold;
+}
+.bor .fa-circle
+{
+	color: #00C7FF;
+	font-size: 6px;
+	margin-right: -17px;
+	position: relative;
+	top: -5px;
+	left: -20px;
+}
+
+/*3-rd col*/
+table tr:first-child
+{
+	margin: 20px 0px 30px 0px;
+}
+.may
+{
+	margin-top: 6px;
+	font-size: 60px;
+	color: #00C7FF;
+	line-height: 43px;
+	text-align: center;
+}
+table tr td p a
+{
+	color: #00C7FF;
+	text-decoration: underline;
+}
+table tr td p a:hover
+{
+	color: #00C7FF;
+}
+table h3
+{
+	display: table;
+	font-size: 20px;
+	font-weight: bold;
+	border-bottom: 2px solid black;
+}
+/*3-rd col*/
+/*main*/
+
+		/*section*/
+		section
+		{
+			background: #3C3C3C;
+			color: white;
+			padding-bottom: 40px;
+		}
+		section .row>div 
+		{
+			padding: 30px;
+			box-sizing: border-box;
+		}
+		section img
+		{
+			border:8px solid white;
+			width: 35%;
+			float: left;
+		}
+		section h2
+		{
+			color: rgba(170,170,170, .8);
+		}
+		section table h3
+		{
+			display: table;
+			font-size: 20px;
+			font-weight: bold;
+			border-bottom: 2px solid white;
+		}
+		.block
+		{
+			overflow: hidden;
+			margin: 20px 0px;
+		}
+		.text-arround
+		{
+			font-size: 17px;
+			width: 60%;
+			float: right;
+		}
+		.text-arround span
+		{
+			font-weight: bold;
+		}
+		.text-arround a
+		{
+			color: #00C7FF;
+			text-decoration: underline;
+		}
+		.text-attound a:hover
+		{
+			color: #00C7FF;
+		}
+
+		.text-arround-mob
+		{
+			display: none;
+		    font-size: 17px;
+    		margin-top: 10px;
+    	}
+    	.text-arround-mob span
+		{
+			font-weight: bold;
+		}
+		.text-arround-mob a
+		{
+			color: #00C7FF;
+			text-decoration: underline;
+		}
+		.text-attound-mob a:hover
+		{
+			color: #00C7FF;
+		}
+		.div-border
+		{
+			display: table;
+			border-right: 2px solid rgba(170,170,170, .3);
+			margin-right: -30px;
+			padding-right: 30px;
+		}
+		.bla-bla
+		{
+			margin-bottom: 46px;
+		}	
+		/*section*/
+
+/*footer*/
+footer
+{
+	background: black;
+	padding: 35px;
+}
+footer p
+{
+	text-align: center;
+}
+footer p a
+{
+	color: #00C7FF;
+	text-decoration: underline;
+}
+footer p a:hover
+{
+	color: #00C7FF;
+}
+footer i
+{
+	font-size: 20px;
+	color: #00C7FF;
+	margin-left: 10px;
+	transition: .4s;
+}
+footer i:hover
+{
+	color: white;
+}
+/*footer*/
+
+
+
+
+@media screen and (max-width: 450px) {
+	.menu__icon{ display: block;}  
+    .nav .comp {display: none;}
+    .nav .mob{top: 50px; right: 0px;width: 85%;}
+    .nav{display: flex;justify-content: flex-end;}
+	main .row>div:last-child{padding:0;}
+	.newtext{font-size: 25px; text-align: center;}
+	.may{margin: 0; font-size: 40px; line-height: 35px;}
+	table h3{font-size: 17px;}
+	.bor ul li h2{font-size: 17px;}
+	table .row:last-child{padding-left: 13px;}
+	table tr:first-child {margin: 13px 0px 48px 0px;}
+	section img{border:8px solid white; width: 100%; float: none;}
+	.text-arround{display: none;}
+	.text-arround-mob{display: block;}
+	section .row>div:last-child{padding: 30px 0px 0px 0px;}
+	section h2{text-align: center;}
+	section table h3 {font-size: 17px;}
+	.bla-bla{margin:-25px 0px 8px 0px;}
+	section table tr:first-child {margin: 16px 0px 106px 0px;}
+	#carousel img {width: 80%;}
+	header{overflow: hidden;}
+	.bor-2{border:none;}
+}
+
+@media screen and (min-width: 455px) and (max-width: 1020px){
+    .menu__icon{ display: block;}  
+    .nav .comp {display: none;}
+    .nav{display: flex;justify-content: flex-end;}
+	main .row>div:last-child{padding:0;}
+	.newtext{font-size: 25px; text-align: center;}
+	.may{margin: 0; font-size: 40px; line-height: 35px;}
+	table h3{font-size: 17px;}
+	.bor ul li h2{font-size: 17px;}
+	table .row:last-child{padding-left: 13px;}
+	table tr:first-child {margin: 13px 0px 48px 0px;}
+	section img{border:8px solid white; width: 100%; float: none;}
+	.text-arround{display: none;}
+	.text-arround-mob{display: block;}
+	section .row>div:last-child{padding: 30px 0px 0px 0px;}
+	section h2{text-align: center;}
+	section table h3 {font-size: 17px;}
+	.bla-bla{margin:-25px 0px 8px 0px;}
+	section table tr:first-child {margin: 16px 0px 106px 0px;}
+}
+@media screen and (min-width: 1022px) and (max-width: 1230px){
+	.newtext{font-size: 25px; text-align: center;}
+	.may{ font-size: 40px; line-height: 35px;}
+	table tr:first-child {margin: 13px 0px 10px 0px;}	
+}
+
+/*на ноутбуке на мобильной версии появляется белая полоска справа
+на компьютере ее нет, подскажите в чем проблема)*/
