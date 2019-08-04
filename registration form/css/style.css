@@ -1,0 +1,183 @@
+body
+{
+	background: #EAEBED;
+	width: 72%;
+    padding-top: 10px;
+    margin: 0 auto;
+    font-family: Calibri; 
+}
+/* надо узнать как менять цвет переключателя radio и галочки checkbox*/
+li
+{
+	margin-bottom: 20px;
+	float: left;
+	list-style-type: none;
+	color: #404040;
+}
+li:first-child
+{ 
+	width: 200px;
+    clear: both;
+    text-align: right;
+}
+li:last-child:not(.line1):not(.line2):not(.down):not(.hands)
+{   
+	background: url(../images/стрелка.jpg) no-repeat left;
+	padding: 0px 20px;
+	margin: 5px 0px 0px 5px;
+	font-size: 12px;
+	color: #858688;
+}
+.line1
+{
+	background: url(../images/стрелка.jpg) no-repeat left;
+	margin:-7px 0px 0px 5px;
+	padding: 0px 20px;
+	font-size: 12px;
+	color: #858688;
+	line-height: 12px;
+}
+.line2
+{
+	background: url(../images/стрелка.jpg) no-repeat left;
+	margin: 0px 0px 0px 5px;
+	padding: 0px 20px;
+	font-size: 12px;
+	color: #858688;
+	line-height: 12px;
+}
+.down
+{
+	margin: 5px 0px 0px 35px;
+}
+.hands
+{
+	font-size: 12px;
+	line-height: 12px;
+	margin: -10px 0px 10px 0px;
+}
+
+input:not(.gender):not(.cod):not(.terms)
+{
+	width: 400px;
+	height: 30px;
+	margin-left:20px;
+    border-radius:5px;
+    margin-top: -5px;
+    padding-left: 5px;  
+}
+input:focus
+{
+	outline: none;
+	border-color: purple;
+}
+.gender
+{
+	vertical-align: middle;
+	height: 22px;
+	width: 200px;
+	margin:  5px -70px 10px 0px;
+}
+.cod
+{
+	width: 230px;
+	height: 30px;
+	margin-left:20px;
+    border-radius: 5px;
+    margin-top: -5px;
+    padding-left: 5px
+}
+.terms
+{
+	height: 22px;
+	width: 200px;
+	margin:  0px -80px 0px -70px
+}
+
+select
+{
+	margin:-10px 0px 0px 10px;
+	border-radius: 5px;
+	height: 40px;
+	background:-webkit-linear-gradient(white 42%,#858688 117%);
+	box-sizing: border-box;
+}
+select:focus
+{
+	outline: none;
+	border-color: purple;
+}
+select:first-child
+{
+	width: 50px;
+	padding-left: 10px;  
+    margin-left: 20px;  
+}
+select:nth-child(2)
+{
+	padding-left: 100px;
+	width: 250px;
+}
+select:last-child
+{
+	width: 82px;
+	padding-left: 23px;   
+}
+#city
+{
+	margin-top: -7px;
+	padding-left: 115px;
+	width: 405px;
+}
+
+button
+{
+	text-align: center;
+	color:#DBDBDB;
+	width: 85px;
+	height: 30px;
+	background: -webkit-linear-gradient(#5B1755 10%,#87458A 50%,#5B1755 90%);
+	margin: -4px 20px 0px 345px;
+	outline: none;
+	border-radius: 8px;
+	border: 2px solid #5B1755;
+	transition: 0.6s;
+	box-shadow: none;
+}
+button:hover
+{
+	background: #EAEBED;
+	color:#5B1755;
+	box-shadow: 0 5px 10px 0 rgba(0,0,0,0.24), 0 8px 25px 0 rgba(0,0,0,0.19);
+}
+button:active
+{
+	background: -webkit-linear-gradient(#5B1755 10%,#87458A 50%,#5B1755 90%);
+	color:#DBDBDB;
+}
+.foto
+{
+	margin: -4px -335px 0px 250px;
+}
+.registr
+{
+	width: 405px;
+	height: 40px;
+	margin-left:20px;
+    border-radius:5px;
+    margin-top: 20px;
+}
+
+img
+{
+	margin: -9px -50px 10px 20px;
+}
+
+a
+{
+ 	color: blue;
+}
+sup
+{
+	color: red;
+}
