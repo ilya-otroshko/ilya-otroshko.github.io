@@ -1,0 +1,31 @@
+body
+{	
+	display: flex;
+	align-items: center;
+	background: url(https://img3.akspic.ru/image/14414-tuman-atmosfera-drevesina-tekstura-tekstury-2560x1600.jpg);
+}
+#slider
+{
+	margin:0 auto;
+	width:640px;
+	height: 426px;
+	overflow: hidden;
+	margin-top: 200px;
+	display: flex;
+	background: black;
+	border:8px solid #2C2B30;
+}
+i
+{
+	font-size: 150px;
+	margin-top: 200px;
+	color:#323540;
+}
+#left
+{
+	margin: 0 auto;
+}
+#right
+{
+	margin: 0 auto;
+}
