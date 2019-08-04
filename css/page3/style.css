@@ -1,0 +1,389 @@
+html, body
+{
+	background: #1D1D1D;
+	font-family: 'Raleway', sans-serif;	
+}
+*
+{
+	box-sizing: border-box;
+}
+
+/*header*/
+.picture 
+{
+	padding: 0!important;
+}
+.picture img
+{
+	width: 100%;
+}
+
+.title
+{
+	padding: 10px;
+	background: #E84C3D;
+	text-align: center;
+	color: white;
+}
+h1
+{
+	font-weight: normal;
+	font-size: 38px;
+	white-space: nowrap;
+	margin:0;
+	text-align: center;
+}
+.nav
+{
+	padding: 0!important;
+	margin-top: 25px;
+}
+.nav a
+{
+	background: #23AFD2;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	text-decoration: none;
+	font-size: 12px;
+	transition: .4s;
+}
+.nav a:nth-child(3)
+{
+	background: #199FC5;
+}
+.nav a:hover
+{
+	background: #199FC5;
+}
+.mob
+{
+	display: none;
+   	position: absolute;
+   	top: 56px;
+   	right: 5px;
+   	padding: 5px;
+   	z-index: 10;
+	display: none;
+	width: 150%;
+	list-style:none;
+	background-color: rgba(38, 38, 38, 0.5);
+}
+.mob li
+{			 
+	margin: 5px 0px;
+}	
+.mob li a
+{
+	color: white;
+	position: relative;
+	top: 3px;
+	text-decoration: none;
+}		
+.mob li a:hover
+{
+	color: #00C7FF;
+}	
+.menu__icon 
+{
+	margin-top: 16px;
+	display: none;
+   	width: 45px;
+   	height: 35px;
+    position: relative;
+   	cursor: pointer;
+}		
+.menu__icon span 
+{
+   	display: block;
+   	position: absolute;
+   	height: 9px;
+   	width: 100%;
+   	background: #23AFD2;
+   	border-radius: 9px;
+   	opacity: 1;
+    left: 0;
+    transform: rotate(0deg);
+   	transition: .25s ease-in-out;
+} 
+.menu__icon span:nth-child(1) 
+{
+  	top: 0px;
+}		
+.menu__icon span:nth-child(2), .menu__icon span:nth-child(3)
+{
+   	top: 13px;
+}
+.menu__icon span:nth-child(4) 
+{
+   	top: 26px;
+}
+.menu_state_open .menu__icon span:nth-child(1) 
+{
+   	top: 18px;
+   	width: 0%;
+   	left: 50%;
+}
+.menu_state_open .menu__icon span:nth-child(2) 
+{
+   	transform: rotate(45deg);
+   	background: #E84C3D;
+}
+.menu_state_open .menu__icon span:nth-child(3) 
+{
+   	transform: rotate(-45deg);
+   	background: #E84C3D;
+}
+.menu_state_open .menu__icon span:nth-child(4) 
+{
+   	top: 18px;
+  	width: 0%;
+   	left: 50%;
+}
+.menu_state_open .mob 
+{
+    display: block;  
+}
+/*header*/
+
+		/*main*/
+		main
+		{
+			margin-top: -75px;
+		}
+		.title-2
+		{
+			background: rgba(232,76,61,.97);
+			height: 75px;
+			padding: 13px 0px 0px 20px;
+		}
+		.title-2 h2
+		{
+			font-size: 21px;
+			color: white;
+			margin: 0;
+		}
+		.first-row
+		{
+			height: 250px;
+		}
+		.third-row
+		{
+			height: 300px;
+		}
+		/*picture*/
+		.text
+		{
+			background: white;
+			padding: 20px 20px 20px 20px;
+			text-align: justify;
+		}
+		.text h3
+		{
+			font-size: 20px;
+			font-weight: bold;
+		}
+		.text a
+		{
+			color: #23AFD2;
+			transition: .3s;
+		}
+		.text a:hover
+		{
+			font-weight: bold;
+			text-decoration: none;
+		}
+		.forest
+		{
+			background: url(../../images/features-1.jpg);
+			background-size: 100% 100%; 
+		}
+		.tree
+		{
+			background: url(../../images/features-2.jpg);
+			background-size: 100% 100%; 
+		}
+		.news
+		{
+			background: #23AFD2;
+			color: white;
+			padding: 85px 25px;
+		}
+		.news h3
+		{
+			font-size: 20px;
+			font-weight: normal;
+		}
+		.news i
+		{
+			font-size: 37px;
+			color: white;
+			margin: 5px 0px;
+		}
+		.news i:nth-child(2)
+		{
+			display: none;
+		}
+		.yop:hover i:nth-child(1)
+		{
+			display: none;
+		}
+		.yop:hover i:nth-child(2)
+		{
+			display: block;
+		}
+		.test
+		{
+			background: #E84C3D;
+			color: white;
+			padding: 85px 25px;
+		}
+		.test h3
+		{
+			font-size: 20px;
+			font-weight: normal;
+		}
+		.test i
+		{
+			font-size: 37px;
+			color: white;
+			margin: 5px 0px;
+		}
+		.test i:nth-child(2)
+		{
+			display: none;
+		}
+		.poy:hover
+		{
+			color: white;
+			text-decoration: none;
+		}
+		.poy:hover i:nth-child(1)
+		{
+			display: none;
+		}
+		.poy:hover i:nth-child(2)
+		{
+			display: block;
+		}
+		.walk
+		{
+			background: url(../../images/features-3.jpg);
+			background-size: 100% 100%;
+			color: white; 
+			display: flex;
+			justify-content: space-between;
+			align-items: flex-end;
+		}
+		.walk i
+		{
+			margin-right: 17px;
+		}
+		.walk p
+		{
+			font-size: 11px;
+		}
+		.bridge
+		{
+			background: url(../../images/features-4.jpg);
+			background-size: 100% 100%; 
+		}
+		/*picture*/	
+		
+		/*main*/
+/*footer*/
+footer
+{
+	margin: 0;
+}
+.design
+{
+	padding-top: 20px;
+	background: #23AFD2;
+	height: 75px;
+}
+.design h4
+{
+	color: white;
+	font-size: 20px;
+}
+.design p
+{
+	margin: 0;
+	margin-top: -5px;
+	color: black;
+	font-size: 13px;
+}
+.black
+{
+	padding-top: 20px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-size: 13px;
+}
+.black a
+{
+	color: #23AFD2;
+	transition: .3s;
+}
+.black a:hover
+{
+	font-weight: bold;
+	text-decoration: none;
+}
+/*footer*/
+/*script*/
+  #go-top {
+  position: absolute;
+  top:25px;
+  right: 0px;
+  font-family: sans-serif;
+  line-height: 30px;
+  text-align: center;
+  color: #1D1D1D;
+  cursor:pointer; 
+  width: 30px;
+  height: 30px;
+  background: #E84C3D;
+  border:1px solid #E84C3D;
+  transition: .5s;
+}
+
+#go-top:hover {
+  background: #1D1D1D;
+  color: #E84C3D;
+}
+/*script*/
+
+@media screen and (max-width: 450px) {
+	.menu__icon{ display: block;}  
+    .comp {display: none;}
+    .nav{margin-top: -5px;}
+    h1{font-size: 20px;}
+    main{margin-top: -40px;}
+	.title-2{height: 40px;padding: 3px 0px 0px 0px; font-size: 7px;}
+	.title-2 h2 {font-size: 10px;}
+	.text{padding: 10px 10px 10px 10px; font-size: 8px; height: 150px;}
+	.text h3{font-size: 10px;}
+	.forest{height: 150px;}
+	.first-row{height: 100%;}
+	.news{padding: 20px 10px;}
+	.news h3{font-size: 13px;}
+	.news i{font-size: 25px;}
+	.test{padding: 20px 10px;}
+	.test h3{font-size: 13px;}
+	.test i{font-size: 25px;}
+	.third-row{height: 100%;}
+	.walk{height: 200px;}
+	.walk i{margin-right: 5px;}
+	.bridge{height: 200px;}
+	.black{font-size: 7px; padding: 20px 20px 0px 10px;}
+	#go-top{line-height: 20px; width: 20px; height: 20px;}
+	.design{padding-top: 5px; height: 67px;}
+	.design h4{font-size: 10px;}
+	.design p{font-size: 7px;}
+}
