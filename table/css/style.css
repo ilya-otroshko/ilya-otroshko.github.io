@@ -1,0 +1,110 @@
+body
+{
+	font-family: Calibri;
+	background: url(../images/nod.jpg) no-repeat;
+	margin:10px 346px 0px 0px;
+}
+table
+{
+	margin: 0 auto;
+	border: 1px solid #282828;
+	border-collapse: collapse;
+	text-align: center;
+	height: 400px;
+	color: #454545;
+}
+thead
+{
+	background:-webkit-linear-gradient(#202020, #333333);
+	color: grey;
+}
+thead tr
+{
+	height: 100px;
+}
+thead tr:first-child
+{
+	height: 40px;
+	font-size: 20px;
+	border-bottom-style: groove;
+	border-bottom-color: #333333;
+}
+span
+{
+	color: #00D5D5;
+	font-size: 45px;
+}
+td:first-child>span
+{
+	color: #00D5D5;
+	font-size: 30px;
+}
+.choose
+{
+	font-size: 30px;
+}
+.per
+{
+	font-size: 13px;
+	color: grey;
+}
+
+.dollar
+{
+	color:grey;
+	font-size: 35px;
+}
+
+tbody tr:nth-child(odd)>td:nth-child(odd)
+{
+	background: #E3E3E3;
+}
+tbody tr:nth-child(even)>td:nth-child(odd)
+{
+	background: #EBEBEB;
+}
+tbody tr:nth-child(odd)>td:nth-child(even)
+{
+	background: #EBEBEB;
+}
+tbody tr:nth-child(even)>td:nth-child(even)
+{
+	background: white;
+}
+td
+{
+	width: 150px;
+}
+td:first-child
+{
+	text-align: left;
+	width: 215px;
+	padding-left: 10px;
+}
+
+tfoot
+{
+	background: #E6E6E6;
+	border-top:1px outset #E6E6E6;
+}
+tfoot tr
+{	
+	height: 50px;
+}
+
+button
+{
+	transition: 0.5s;
+	font-weight: bold;
+	color: #454545;
+	width: 110px;
+	height: 25px;
+	border: 2px solid #00D5D5;
+	border-collapse: collapse;
+}
+
+button:focus
+{
+	background: white;
+	border: none;
+}
