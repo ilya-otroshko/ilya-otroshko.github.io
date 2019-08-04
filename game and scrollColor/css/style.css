@@ -1,0 +1,83 @@
+#gamearea
+{
+	width: 800px;
+	height: 600px;
+	position: relative;
+	border:2px solid black;
+	margin: 0 auto;
+}
+
+
+#platform
+{
+	width: 150px;
+	height: 20px;
+	background:black;
+	position: absolute;
+	z-index: 1;
+	bottom: 0px;
+	pointer-events: none;
+}
+
+#ball
+{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background: red;
+	position: absolute;
+	pointer-events: none;
+}
+
+#timer
+{
+	float: left;
+	font-size: 50px;
+}
+
+#blue
+{
+	color: white;
+	text-align: center;
+	padding-top: 10px;
+	font-size: 20px;
+	width: 50px;
+	height: 40px;
+	background: black;
+	float: right;
+	margin-right: 40px;
+}
+#green
+{
+	color: white;
+	padding-top: 10px;
+	font-size: 20px;
+	text-align: center;
+	width: 50px;
+	height: 40px;
+	background: black;
+	float: right;
+	margin-right: 5px;
+}
+#red
+{
+	color: white;
+	padding-top: 10px;
+	font-size: 20px;
+	text-align: center;
+	width: 50px;
+	height: 40px;
+	background: rgb(0,0,0);
+	float: right;
+	margin-right: 5px;
+}
+
+#mix
+{
+	width: 160px;
+	height: 40px;
+	background: black;
+	float: right;
+	margin-top: 55px;
+	margin-right: -160px;
+}
