@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	 <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Main</title>		
+	<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/all.css">
+			<link rel="stylesheet" href="css/animate.css">
+		
+</head>
+	<body >
+<table frame="border" class="mainTable">
+	<thead>
+		
+			<h1 style="float: left;">Калькулятор стоимости на окна ПВХ Veka </h1>
+			<div class="checkbox">
+			<input type="checkbox" id="checkOkna">
+			<label for="checkOkna">выберите окна</label>
+		</div>
+		<div class="checkbox">
+			<input type="checkbox" id="opzii">
+			<label for="opzii">укажите опции</label>
+		</div>
+		<div class="checkbox">
+			<input type="checkbox" id="prise">
+			<label for="prise">узнайте цену</label>
+		</div>
+	</thead>
+	<tbody id="tbody">
+
+
+<!-- !!!!!!!!!!!!!!!!ВЫБЕРИТЕ ТИП ДОМА!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+<!-- !!!!!!!!!!!!!!!!ВЫБЕРИТЕ ТИП ДОМА!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+<!-- !!!!!!!!!!!!!!!!ВЫБЕРИТЕ ТИП ДОМА!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+	<tr>
+		<tr ><td colspan="8" height="50" ><span class="vuborTypa" >Выберите тип дома</span></td></tr>
+		<tr id="first" height="50">
+		<td><button type="button" class="type"><input value="П-44" type="radio" name="type" id="firstH" class="check" > <label for="firstH">П-44</label></button></td>
+
+		<td><button type="button" class="type"><input value="П-30" type="radio" name="type" id="secondH" class="check" > <label for="secondH">П-30</label></button></td>
+
+		<td><button type="button" class="type"><input value="П-46М" type="radio" name="type" id="thirdH" class="check" > <label for="thirdH">П-46М</label></button></td>
+
+		<td><button type="button" class="type"><input value="П-43" type="radio" name="type" id="fourH" class="check""> <label for="fourH">П-43</label></button></td>
+
+		<td><button type="button" class="type"><input value="КОПЭ" type="radio" name="type" id="fiveH" class="check" > <label for="fiveH">КОПЭ</label></button></td>
+
+		<td><button type="button" class="type"><input value="П-3" type="radio" name="type" id="sithH" class="check" > <label for="sithH">П-3</label></button></td>
+
+		<td><button type="button" class="type"><input value="II49" type="radio" name="type" id="sevenH" class="check" > <label for="sevenH">II49</label></button></td>
+
+		<td><button type="button" class="type"><input value="1605" type="radio" name="type" id="eightH" class="check" > <label for="eightH">1605</label></button></td>
+	</tr>
+		<tr id="lastText"><td colspan="8">Окна из профиля Veka. <b>Фурнитура Winhaus +</b><span style="color: #00D700; font-weight: bold;"> зимнее проветривание в подарок!</span></td></tr>
+	</tr>
+<!-- !!!!!!!!!!!!!!!!ВЫБЕРИТЕ ТИП ДОМА!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+<!-- !!!!!!!!!!!!!!!!ВЫБЕРИТЕ ТИП ДОМА!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+<!-- !!!!!!!!!!!!!!!!ВЫБЕРИТЕ ТИП ДОМА!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+
+
+
+<!-- !!!!!!!!!!!!!Выберите тип стеклопакета!!!!!!!!!!!!!!!!!!!!!! -->
+<!-- !!!!!!!!!!!!!Выберите тип стеклопакета!!!!!!!!!!!!!!!!!!!!!! -->
+<!-- !!!!!!!!!!!!!Выберите тип стеклопакета!!!!!!!!!!!!!!!!!!!!!! -->	
+
+	<tr>
+		<tr ><td colspan="8" height="50" ><span class="vuborTypa">Выберите тип стеклопакета</span></td></tr>
+
+		<td colspan="2" class="okna"> <img src="images/1okno.png" alt="pic"><p>Одностворчатое </br>
+		окно <span style="color:#00A0D0" class="oknoPrice">0</span></p>
+		<input type="text" value="0" class="oknoCount"></td>
+
+		<td colspan="2" class="okna"><img src="images/2okno.png" alt="pic"> <p>Двухстворчатое</br>
+окно <span style="color:#00A0D0" class="oknoPrice">0</span></p>
+		<input type="text" value="0" class="oknoCount"></td></td>
+
+		<td colspan="2" class="okna"><img src="images/3okno.png" alt="pic"><p>Трехстворчатое</br>
+окно <span style="color:#00A0D0" class="oknoPrice">0</span></p>
+		<input type="text" value="0" class="oknoCount"></td></td>
+
+		<td colspan="2" class="okna"><img src="images/4okno.png" alt="pic"><p>Балконный</br>
+блок <span style="color:#00A0D0" class="oknoPrice">0</span></p>
+		<input type="text" value="0" class="oknoCount"></td></td>
+	</tr>
+	</tbody>
+<!-- !!!!!!!!!!!!!Выберите тип стеклопакета!!!!!!!!!!!!!!!!!!!!!! -->
+<!-- !!!!!!!!!!!!!Выберите тип стеклопакета!!!!!!!!!!!!!!!!!!!!!! -->
+<!-- !!!!!!!!!!!!!Выберите тип стеклопакета!!!!!!!!!!!!!!!!!!!!!! -->
+
+
+
+	
+<!-- !!!!!!!!!!!!!Закажите услуги!!!!!!!!!!!!!!!!!!!!!! -->
+<!-- !!!!!!!!!!!!!Закажите услуги!!!!!!!!!!!!!!!!!!!!!! -->
+<!-- !!!!!!!!!!!!!Закажите услуги!!!!!!!!!!!!!!!!!!!!!! -->	
+		<tr>
+			<td colspan="5" height="50" style="border-top: .4px solid grey;"><span class="vuborTypa">Закажите услуги</span>
+			</td>
+			<td rowspan="7" colspan="3" style="vertical-align: top;
+		font-weight: bolder; text-align: center;
+		font-size: 20px; border-left: .4px solid grey;border-top: .4px solid grey;">
+			<h2>Стоимость вашего заказа</h2>
+			<p id="result"></p>
+			<button type="button" id="submitButton" onclick="submitForm()">Рассчитать</br>со скидкой</button>
+		</td>
+		</tr>
+		<td></td>
+		
+		<td colspan="1" class="ysluga"><img src="images/dostavka.png" alt="pic" >
+			<label for="dostavka"><p>Доставка</br><span style="color: #00A0D0;">1800</span></label></br><input class="services
+	" type="checkbox" id="dostavka" value="1800"></p></td>
+
+		<td colspan="1" class="ysluga"><img src="images/demontazh.png" alt="pic" >
+			<label for="demon"><p>Демонтаж</br>окон <span style="color: #00A0D0;">916</span></label></br><input class="services
+	" type="checkbox" id="demon" value="916"></p></td>
+
+		<td colspan="1" class="ysluga"><img src="images/montazh.png" alt="pic" >
+			<label for="montazh"><p>Монтаж</br>окон <span style="color: #00A0D0;">5193</span></label></br><input class="services
+	" type="checkbox" id="montazh" value="5193"></p></td>
+		<td></td>
+		</tr>
+<!-- !!!!!!!!!!!!!Закажите услуги!!!!!!!!!!!!!!!!!!!!!! -->
+<!-- !!!!!!!!!!!!!Закажите услуги!!!!!!!!!!!!!!!!!!!!!! -->
+<!-- !!!!!!!!!!!!!Закажите услуги!!!!!!!!!!!!!!!!!!!!!! -->
+
+
+<!-- !!!!!!!!!!!!!Закажите отделку!!!!!!!!!!!!!!!!!!!!!! -->
+<!-- !!!!!!!!!!!!!Закажите отделку!!!!!!!!!!!!!!!!!!!!!! -->
+<!-- !!!!!!!!!!!!!Закажите отделку!!!!!!!!!!!!!!!!!!!!!! -->
+
+		<tr>
+		<tr><td colspan="5" height="50" style="border-top: .4px solid grey;"><span class="vuborTypa">
+		Закажите отделку</span></td></tr>
+
+		<td colspan="2" class="ysluga"><img src="images/podokonnik.png" alt="pic" style="margin-left: 135px;">
+			<label for="podokonnik"><p>Подоконники <span style="color: #00A0D0;">1218</span>
+		</label></br><input class="services" type="checkbox" id="podokonnik" value="1218"></p></td>
+
+		<td colspan="1" class="ysluga"><img src="images/otkos.png" alt="pic">
+			<label for="otkos"><p>Отделка</br>откосов <span style="color: #00A0D0;">7884</span>
+		</label></br><input class="services" type="checkbox" id="otkos" value="7884"></p></td>
+
+		<td colspan="1" class="ysluga"><img src="images/otliv.png" alt="pic">
+			<label for="otliv"><p>Отливы <span style="color: #00A0D0;">522</span>
+		</label></br><input class="services" type="checkbox" id="otliv" value="522" style="margin-top: 21px;"></p></td>
+
+		<td colspan="1" class="ysluga"><img src="images/moskit.png" alt="pic">
+			<label for="moskit"><p>Москитная</br>сетка <span style="color: #00A0D0;">1380</span>
+		</label></br><input class="services" type="checkbox" id="moskit" value="1380"></p></td>
+
+
+	</tr>
+<!-- !!!!!!!!!!!!!Закажите отделку!!!!!!!!!!!!!!!!!!!!!! -->
+<!-- !!!!!!!!!!!!!Закажите отделку!!!!!!!!!!!!!!!!!!!!!! -->
+<!-- !!!!!!!!!!!!!Закажите отделку!!!!!!!!!!!!!!!!!!!!!! -->
+			
+
+</table>
+<table frame="border" id="secondTable" class="mainTable">
+		<tr id="priceCheck">
+			<td></td>
+	<td colspan="2" style="font-weight: bold;">
+		Выберите ценовую категорию
+	</td></tr>
+
+		<td style="text-align: right;"><button type="button" id="econom" onclick="buttonClicked('A')">Эконом</button></td>
+
+		<td style="text-align: center;"><button type="button"  id="standart" onclick="buttonClicked('B')">Стандарт</button></td>
+
+		<td><button type="button"  id="prem" onclick="buttonClicked('C')">Премиум</button></td>
+</table>
+<div id="popUpFirst">
+
+	<h2>АКЦИЯ</h2>
+	<p>При покупке <b style="font-size: 35px; color: #019DC8;">двух</b> и более окон действует скидка на весь заказ <b style="font-size: 35px; color: #019DC8;">5%</b></p>
+	<i class="fas fa-times" id="exitFirst"></i>
+</div>
+<div id="podstilkaFirst"></div>
+<div id="podstilka"></div>
+<div id="popUp">
+	<h2 class="vuborTypa" >Ваш предварительный рассчет</h2>
+	<div class="tablePopUp">
+	<table>
+		<tr>
+			<td></td>
+			<td>Количество</td>
+			<td>Сумма</td>
+		</tr>
+		<tr>
+			<td>Одностворчатое окно</td>
+			<td class="allCount"></td>
+			<td class="allPrice"></td>
+		</tr>
+		<tr>
+			<td>Двухстворчатое окно</td>
+			<td class="allCount"></td>
+			<td class="allPrice"></td>
+		</tr>
+		<tr>
+			<td>Трехстворчатое окно</td>
+			<td class="allCount"></td>
+			<td class="allPrice"></td>
+		</tr>
+		<tr>
+			<td>Балконный блок</td>
+			<td class="allCount"></td>
+			<td class="allPrice"></td>
+		</tr>
+		<tr>
+			<td>Доставка</td>
+			<td class="allCount"></td>
+			<td class="allPrice"></td>
+		</tr>
+		<tr>
+			<td>Демонтаж</td>
+			<td class="allCount"></td>
+			<td class="allPrice"></td>
+		</tr>
+		<tr>
+			<td>Монтаж окон</td>
+			<td class="allCount"></td>
+			<td class="allPrice"></td>
+		</tr>
+		<tr>
+			<td>Подоконники</td>
+			<td class="allCount"></td>
+			<td class="allPrice"></td>
+		</tr>
+		<tr>
+			<td>Отделка откосов</td>
+			<td class="allCount"></td>
+			<td class="allPrice"></td>
+		</tr>
+		<tr>
+			<td>Отделка отливов</td>
+			<td class="allCount"></td>
+			<td class="allPrice"></td>
+		</tr>
+		<tr>
+			<td>Москитные сетки</td>
+			<td class="allCount"></td>
+			<td class="allPrice"></td>
+		</tr>
+		<tr>
+			<td rowspan="4" colspan="3" id="resultPopUp"></td>
+		</tr>
+	</table>
+
+	<p style="font-style: italic; text-align: left; padding-left: 10px; padding-right: 10px;">Мы гарантируем, что ваши данные не будут использованы для рассылки нежелательной информации, и ни при каких условиях не будут переданы третьим лицам.</p>
+	</div>
+	<div class="formPopUp">
+		<p style="color: #00A0D0;">
+Что бы получить более точный расчет<br>
+от нашего менеджера, пожалуйста<br>
+заполните форму
+</p>
+	<form action="">
+		<ul>
+			<li><input type="text"  placeholder="Имя">
+				<label for="name"></label>
+			</li>
+			<li><input type="tel" placeholder="Телефон">
+				<label for="phone"></label>
+			</li>
+			<li><input type="email" placeholder="e-mail">
+				<label for="mail"></label>
+			</li>
+			<li><textarea id="coment" rows="4" maxlength="250" placeholder="Пожелания" ></textarea>
+			</li>
+		</ul>
+
+			<button type="submit" id="submitButton" style="margin: 0 auto;">Рассчитать</button>
+
+		<p style="font-size: 14px; margin-top: 30px; text-align: left; padding-left: 10px;">** Стоимость окон посчитана из профиля Veka. Цена указана по акции со скидкой. Акция действует при заказе от двух и более окон. <span id="dom"></span> Точная цена вашего проекта будет согласована после замера.</p>
+		<p style="font-size: 14px; text-align: left; padding-left: 10px;">* Ежемесячные выплаты при беспроцентной рассрочке на 6 месяцев.</p>
+	</form>
+
+	</div>
+	<i class="fas fa-times" id="exit"></i>
+</div>
+<script src="js/script.js"></script>
+</body>
+</html>
+
